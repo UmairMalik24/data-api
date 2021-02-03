@@ -132,7 +132,9 @@
             {                
                 "access_token": "Your Generated Token"
             }
-## 3. Store Data
+            
+            
+## 4. Store Data
 
 ### 1. Store Category
 
@@ -141,6 +143,7 @@
 ####     Body:Type=>Raw(JSON)
             {                
                 "access_token": "Your Generated Token"
+                "cat_title":"Any Name"
             }
             
 ### 2. Store Text Data
@@ -149,7 +152,14 @@
 ####     Route: https://data.funprimetechnology.com/public_html/data/store
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "userid":"User's Id",
+                "Text":"Any text data",
+                "ugtext":"User's Generated text",
+                "Author":"Text's Author",
+                "Sender":"Sender Name",
+                "categoryid":"Text Category's id",
+                "languageid":"Text Language'id",
             }
 
 
@@ -160,6 +170,8 @@
 ####     Body:Type=>Raw(JSON)
             {                
                 "access_token": "Your Generated Token"
+                "Name":"User's Name",
+                "Email":"User's Email"
             }
 
 ### 4. Post a Like 
@@ -168,7 +180,8 @@
 ####     Route: https://data.funprimetechnology.com/public_html/like
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "text_id": "Post ID that you want to like"                
             }
 
 ### 5. Post a Dislike
@@ -177,7 +190,8 @@
 ####     Route: https://data.funprimetechnology.com/public_html/dislike
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "text_id": "Post ID that you want to dislike"
             }
 
 ### 6. Report a Post
@@ -186,7 +200,8 @@
 ####     Route: https://data.funprimetechnology.com/public_html/report
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "text_id": "Post ID that you want to report"
             }
 
 ### 7. Approve a Post
@@ -195,7 +210,8 @@
 ####     Route: https://data.funprimetechnology.com/public_html/data/approve
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "text_id": "Post ID that you want to approve"
             }
 
 
@@ -205,6 +221,7 @@
 ####     Route: https://data.funprimetechnology.com/public_html/data/approve
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "text_id": "Post ID that you want to block"
             }
 
