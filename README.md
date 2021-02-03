@@ -1,3 +1,92 @@
+# Data Api Documentation
+
+# Domain:
+    https://data.funprimetechnology.com/public_html/
+
+# Routes
+
+## 1. Authentication
+
+### Generate Access Token: 
+        
+####     Request Type: POST
+####     Route: https://data.funprimetechnology.com/public_html/v1/oauth/token
+####     Body:Type=>Raw(JSON)
+            {
+                "grant_type":"client_credentials",
+                "client_id":"2",
+                "client_secret": "2WyRwTFE8lNgzlcP9rxAPxhSeJ3RdWpm21h2z4oQ"
+            }
+
+## 2. Fetch Data
+
+### 1. All Data
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/data/all
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+            
+### 2. All Categories
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/categories
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+            
+### 3. Category Specific Data
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/category/{cat_id}
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+### 4. User Specific Data
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/userdata/get/{user_id}
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+            
+    
+### 5. User Favorite Data
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/fav/{user_id}
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+            
+### 6. All Languages
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/fav/{user_id}
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
+### 7. Language Specific Data
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/lang/data/{language_id}
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
+
+
+
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
