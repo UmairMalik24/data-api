@@ -214,14 +214,26 @@
                 "text_id": "Post ID that you want to approve"
             }
 
-
+user_id;
 ### 8. Block a Post
 
 ####     Request Type: Get
-####     Route: https://data.funprimetechnology.com/public_html/data/approve
+####     Route: https://data.funprimetechnology.com/public_html/data/block
 ####     Body:Type=>Raw(JSON)
             {                
                 "access_token": "Your Generated Token",
                 "text_id": "Post ID that you want to block"
             }
+            
+### 6. Add to User Favorites
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/add/fav
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token",
+                "user_id": "User's ID"
+                "text_id": "Post's ID"
+            }
+
 
