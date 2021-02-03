@@ -68,7 +68,16 @@
 ### 6. All Languages
 
 ####     Request Type: Get
-####     Route: https://data.funprimetechnology.com/public_html/fav/{user_id}
+####     Route: https://data.funprimetechnology.com/public_html/all
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
+### 7. Language Specific Data
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/lang/data/{language_id}
 ####     Body:Type=>Raw(JSON)
             {                
                 "access_token": "Your Generated Token"
@@ -84,30 +93,118 @@
             }
 
 
+### 8. Top 30 Posts of last month
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/data/previous/top30
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+            
+
+### 9. Top 20 posts of last week
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/data/previous/top20
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
 
 
 
-# Lumen PHP Framework
+## 3. Search Data
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+### 1. Search by Text
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/search/text
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+### 2. Search by Author Name
 
-## Official Documentation
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/search/author
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+## 3. Store Data
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+### 1. Store Category
 
-## Contributing
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/category/store
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+            
+### 2. Store Text Data
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/data/store
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+### 3. Store User
 
-## License
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/user/store
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 4. Post a Like 
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/like
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
+### 5. Post a Dislike
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/dislike
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
+### 6. Report a Post
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/report
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
+### 7. Approve a Post
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/data/approve
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
+
+### 8. Block a Post
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/data/approve
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token"
+            }
+
