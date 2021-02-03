@@ -138,7 +138,7 @@
 
 ### 1. Store Category
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/category/store
 ####     Body:Type=>Raw(JSON)
             {                
@@ -148,7 +148,7 @@
             
 ### 2. Store Text Data
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/data/store
 ####     Body:Type=>Raw(JSON)
             {                
@@ -165,7 +165,7 @@
 
 ### 3. Store User
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/user/store
 ####     Body:Type=>Raw(JSON)
             {                
@@ -176,7 +176,7 @@
 
 ### 4. Post a Like 
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/like
 ####     Body:Type=>Raw(JSON)
             {                
@@ -186,7 +186,7 @@
 
 ### 5. Post a Dislike
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/dislike
 ####     Body:Type=>Raw(JSON)
             {                
@@ -196,7 +196,7 @@
 
 ### 6. Report a Post
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/report
 ####     Body:Type=>Raw(JSON)
             {                
@@ -206,7 +206,7 @@
 
 ### 7. Approve a Post
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/data/approve
 ####     Body:Type=>Raw(JSON)
             {                
@@ -217,7 +217,7 @@
 user_id;
 ### 8. Block a Post
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/data/block
 ####     Body:Type=>Raw(JSON)
             {                
@@ -227,7 +227,7 @@ user_id;
             
 ### 6. Add to User Favorites
 
-####     Request Type: Get
+####     Request Type: POST
 ####     Route: https://data.funprimetechnology.com/public_html/add/fav
 ####     Body:Type=>Raw(JSON)
             {                
