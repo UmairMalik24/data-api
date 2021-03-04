@@ -122,7 +122,8 @@
 ####     Route: https://data.funprimetechnology.com/public_html/search/text
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "query":""
             }
 ### 2. Search by Author Name
 
@@ -130,7 +131,8 @@
 ####     Route: https://data.funprimetechnology.com/public_html/search/author
 ####     Body:Type=>Raw(JSON)
             {                
-                "access_token": "Your Generated Token"
+                "access_token": "Your Generated Token",
+                "query":""
             }
             
             
