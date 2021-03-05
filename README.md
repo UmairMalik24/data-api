@@ -123,7 +123,7 @@
 ####     Body:Type=>Raw(JSON)
             {                
                 "access_token": "Your Generated Token",
-                "query":""
+                "text":""
             }
 ### 2. Search by Author Name
 
@@ -132,7 +132,7 @@
 ####     Body:Type=>Raw(JSON)
             {                
                 "access_token": "Your Generated Token",
-                "query":""
+                "author":""
             }
             
             
