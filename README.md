@@ -112,6 +112,16 @@
                 "access_token": "Your Generated Token"
             }
 
+### 9. Get User Favorite Data
+
+####     Request Type: Get
+####     Route: https://data.funprimetechnology.com/public_html/user/fav
+####     Body:Type=>Raw(JSON)
+            {                
+                "access_token": "Your Generated Token",
+                "user_id":""
+            }
+
 
 
 ## 3. Search Data
