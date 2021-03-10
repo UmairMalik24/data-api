@@ -49,9 +49,10 @@
 ### 4. User Specific Data
 
 ####     Request Type: Get
-####     Route: https://data.funprimetechnology.com/public_html/userdata/get/{user_id}
+####     Route: https://data.funprimetechnology.com/public_html/data/user
 ####     Body:Type=>Raw(JSON)
             {                
+                "user_id":"",
                 "access_token": "Your Generated Token"
             }
             
